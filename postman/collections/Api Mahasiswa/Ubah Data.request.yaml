@@ -1,0 +1,22 @@
+$kind: http-request
+url: 'http://127.0.0.1:8000/api/mahasiswa/2'
+method: PUT
+order: 3000
+body:
+  type: formdata
+  content:
+    - key: nama
+      type: text
+      value: Linda Lia
+    - key: jurusan
+      type: text
+      value: Teknik Informatika
+    - key: alamat
+      type: text
+      value: Jakarta
+    - key: jk
+      type: text
+      value: Perempuan
+    - key: tgl_lahir
+      type: text
+      value: '2000-01-01'
